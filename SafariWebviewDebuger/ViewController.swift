@@ -42,17 +42,24 @@ class ViewController: UIViewController {
     }
     
     @objc func onLoad() {
-        resignFirstResponder()
+        if input.isFirstResponder {
+            input.resignFirstResponder()
+        }
         guard let urlString = input.text, let url = URL(string: urlString) else {
             return
         }
         let request = URLRequest(url: url, cachePolicy: .reloadIgnoringLocalAndRemoteCacheData, timeoutInterval: 60)
         webView.load(request)
+        UIApplication.shared.isNetworkActivityIndicatorVisible = true
     }
 }
 
 extension ViewController: WKNavigationDelegate {
+    func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
+        UIApplication.shared.isNetworkActivityIndicatorVisible = false
+    }
     func webView(_ webView: WKWebView, didFail navigation: WKNavigation!, withError error: Error) {
+        UIApplication.shared.isNetworkActivityIndicatorVisible = false
         print("\(error)")
     }
 }
