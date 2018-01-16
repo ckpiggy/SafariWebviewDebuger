@@ -25,6 +25,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1123D607200E4B08002615FB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		11880275200D1E1C00D23F09 /* SafariWebviewDebuger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafariWebviewDebuger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11880278200D1E1C00D23F09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1188027A200D1E1C00D23F09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +58,7 @@
 		1188026C200D1E1C00D23F09 = {
 			isa = PBXGroup;
 			children = (
+				1123D607200E4B08002615FB /* README.md */,
 				11880277200D1E1C00D23F09 /* SafariWebviewDebuger */,
 				1188028C200D1E1C00D23F09 /* SafariWebviewDebugerTests */,
 				11880276200D1E1C00D23F09 /* Products */,
@@ -344,7 +346,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NU3ZHCB55N;
 				INFOPLIST_FILE = SafariWebviewDebuger/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chaotang.SafariWebviewDebuger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -360,7 +362,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NU3ZHCB55N;
 				INFOPLIST_FILE = SafariWebviewDebuger/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chaotang.SafariWebviewDebuger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
