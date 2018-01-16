@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		11880279200D1E1C00D23F09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11880278200D1E1C00D23F09 /* AppDelegate.swift */; };
 		1188027B200D1E1C00D23F09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1188027A200D1E1C00D23F09 /* ViewController.swift */; };
-		1188027E200D1E1C00D23F09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1188027C200D1E1C00D23F09 /* Main.storyboard */; };
 		11880280200D1E1C00D23F09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1188027F200D1E1C00D23F09 /* Assets.xcassets */; };
 		11880283200D1E1C00D23F09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11880281200D1E1C00D23F09 /* LaunchScreen.storyboard */; };
 		1188028E200D1E1C00D23F09 /* SafariWebviewDebugerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1188028D200D1E1C00D23F09 /* SafariWebviewDebugerTests.swift */; };
@@ -29,7 +28,6 @@
 		11880275200D1E1C00D23F09 /* SafariWebviewDebuger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafariWebviewDebuger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11880278200D1E1C00D23F09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1188027A200D1E1C00D23F09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1188027D200D1E1C00D23F09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1188027F200D1E1C00D23F09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11880282200D1E1C00D23F09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11880284200D1E1C00D23F09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -79,7 +77,6 @@
 			children = (
 				11880278200D1E1C00D23F09 /* AppDelegate.swift */,
 				1188027A200D1E1C00D23F09 /* ViewController.swift */,
-				1188027C200D1E1C00D23F09 /* Main.storyboard */,
 				1188027F200D1E1C00D23F09 /* Assets.xcassets */,
 				11880281200D1E1C00D23F09 /* LaunchScreen.storyboard */,
 				11880284200D1E1C00D23F09 /* Info.plist */,
@@ -181,7 +178,6 @@
 			files = (
 				11880283200D1E1C00D23F09 /* LaunchScreen.storyboard in Resources */,
 				11880280200D1E1C00D23F09 /* Assets.xcassets in Resources */,
-				1188027E200D1E1C00D23F09 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,14 +219,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1188027C200D1E1C00D23F09 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1188027D200D1E1C00D23F09 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		11880281200D1E1C00D23F09 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -356,6 +344,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NU3ZHCB55N;
 				INFOPLIST_FILE = SafariWebviewDebuger/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chaotang.SafariWebviewDebuger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -371,6 +360,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NU3ZHCB55N;
 				INFOPLIST_FILE = SafariWebviewDebuger/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chaotang.SafariWebviewDebuger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
